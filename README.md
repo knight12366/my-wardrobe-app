@@ -4,6 +4,7 @@
 
 ## Getting Started
 
+![f81a73eb0d6b4fac8db7ac6231767aaa](https://github.com/user-attachments/assets/c54b5d94-29c3-491d-a3d2-f14a2415d763)
 
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
