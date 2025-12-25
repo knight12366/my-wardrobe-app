@@ -4,7 +4,22 @@
 
 ## Getting Started
 
-![f81a73eb0d6b4fac8db7ac6231767aaa](https://github.com/user-attachments/assets/c54b5d94-29c3-491d-a3d2-f14a2415d763)
+<p align="center">
+  <img src="screenshots\f81a73eb0d6b4fac8db7ac6231767aaa.jpeg" width="300" alt="App首页" />
+</p>
+<p align="center">
+  <img src="screenshots\cb363b36bccc6e16c51bea6aeb73cf25.jpeg" width="300" alt="添加界面" />
+</p>
+<p align="center">
+  <img src="screenshots\b6e29fceffa07dc614d182f99ea42325.jpeg" width="300" alt="分类管理" />
+</p>
+<p align="center">
+  <img src="screenshots\f998652bb22f6ba13fa61549ef134cbf.jpeg" width="300" alt="筛选界面" />
+</p>
+<p align="center">
+  <img src="screenshots\fb66931327ba122101a6cdb114a6a4dd.jpeg" width="300" alt="搜索界面" />
+</p>
+
 
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
