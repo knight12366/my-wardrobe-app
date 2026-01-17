@@ -571,7 +571,9 @@ class _CategoryManagementScreenState extends State<CategoryManagementScreen> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Padding(
-                                  padding: const EdgeInsets.symmetric(vertical: 4.0),
+                                  padding: const EdgeInsets.symmetric(
+                                    vertical: 4.0,
+                                  ),
                                   child: Text(
                                     entry.key,
                                     style: TextStyle(
@@ -604,9 +606,12 @@ class _CategoryManagementScreenState extends State<CategoryManagementScreen> {
                                                     : Colors.grey,
                                                 width: 2,
                                               ),
-                                              borderRadius: BorderRadius.circular(8),
+                                              borderRadius:
+                                                  BorderRadius.circular(8),
                                               color: tempSelectedIcon == icon
-                                                  ? Color(0xFFE91E63).withOpacity(0.1)
+                                                  ? Color(
+                                                      0xFFE91E63,
+                                                    ).withOpacity(0.1)
                                                   : Colors.transparent,
                                             ),
                                             child: Text(
@@ -809,14 +814,14 @@ class _CategoryManagementScreenState extends State<CategoryManagementScreen> {
                         style: TextStyle(fontSize: 20),
                       ),
                     ),
-              title: Row(
-                children: [
-                  if (!hasChildren)
-                    Text(category.icon ?? '🎨', style: TextStyle(fontSize: 20)),
-                  SizedBox(width: 8),
-                  Text(category.name),
-                ],
-              ),
+              // title: Row(
+              //   children: [
+              //     if (!hasChildren)
+              //       Text(category.icon ?? '🎨', style: TextStyle(fontSize: 20)),
+              //     SizedBox(width: 8),
+              //     Text(category.name),
+              //   ],
+              // ),
               trailing: PopupMenuButton(
                 icon: Icon(Icons.more_vert, color: Color(0xFFE91E63)),
                 itemBuilder: (context) => [
